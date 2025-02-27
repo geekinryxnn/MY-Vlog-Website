@@ -24,6 +24,7 @@ header {
 a{
     color: blue;
 }
+
 p{
     color: black;
     text-align: center;
@@ -53,6 +54,8 @@ nav ul li a {
     color: #fff;
     padding: 14px 20px;
     text-decoration: none;
+    text-align: right;
+    margin: 10px;
 }
 
 nav a:hover {
