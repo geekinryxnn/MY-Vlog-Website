@@ -71,7 +71,12 @@ footer {
   bottom: 0;
   width: 100%;
 }
-
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding: 0;
+}
 /* Responsive Styles */
 @media (max-width: 768px) {
   nav {
@@ -80,7 +85,7 @@ footer {
   }
 
   nav ul {
-    padding: 0;
+    padding: 5px;
   }
 
   nav ul li {
